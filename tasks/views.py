@@ -6,7 +6,7 @@ def helloworld(request):
     return HTTPResponse('Hello World')
 
 def tasklist(request):
-    return render(request, 'task/list.html')
+    return render(request, 'tasks/list.html')
 
 
 # Create your views here.
