@@ -5,7 +5,7 @@ from django.http import HttpResponse
 def helloworld(request):
     return HTTPResponse('Hello World')
 
-def tasklist(request):
+def taskslist(request):
     return render(request, 'tasks/list.html')
 
 
